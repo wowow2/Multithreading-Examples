@@ -13,5 +13,6 @@ typedef struct {
 
 void* merge_sort(void* args);
 void merge(int* array, int left, int mid, int right);
+void populate_input_txt(const char* filename, int* array, int size);
 
 #endif // MERGE_SORT_H
